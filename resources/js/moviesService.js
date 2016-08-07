@@ -46,7 +46,7 @@ app.service("moviesService", function ($http, $q)
 })
 .controller('Character', function ($scope) {
     $scope.info = [];
-    $scope.currentInfo = $scope.info['Alan'];
+    $scope.currentInfo = $scope.info[''];
     $scope.$on('CharacterChanged', function (event, newCharacter) {
         $scope.currentInfo = $scope.info[newCharacter];
     });
